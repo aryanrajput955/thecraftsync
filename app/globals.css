@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'HeadingExtrabold';
+  src: url('/fonts/HeadingExtrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HeadingBold';
+  src: url('/fonts/HeadingBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('/fonts/Geomanist-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-display: 'HeadingExtrabold', sans-serif;
+  --font-heading: 'HeadingBold', sans-serif;
+  --font-paragraph: 'ProximaNova', sans-serif;
+    --primary: #D2BEDD;
+  --primary-dark: #7D4199;
+}
+.font-display {
+  font-family: var(--font-display);
+}
+.font-heading {
+  font-family: var(--font-heading);
+}
+.font-paragraph {
+  font-family: var(--font-paragraph);
+}
+.text-primary {
+  color: var(--primary);
+}
+.text-primary-dark {
+  color: var(--primary-dark);
+}
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+.word-wide {
+  
+  word-spacing: 100vw;
+  line-height: 0.88 ;
+}
+.word-subheading {
+  line-height: 0.88 ;
+}
+
+@keyframes waveUnderline {
+  0% { transform: scaleX(1) translateX(0); }
+  50% { transform: scaleX(1.1) translateX(5%); }
+  100% { transform: scaleX(1) translateX(0); }
+}
+p{
+  font-family: var(--font-paragraph);
+
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
