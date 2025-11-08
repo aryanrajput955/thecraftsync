@@ -47,6 +47,34 @@ const ProjectSection = () => {
       description: "Modern grooming service website with booking functionality",
       image: "/p5.png",
       live: "https://beardsnshears.in/",
+    },
+        {
+      id: 6,
+      name: "Indiem",
+      description: "Innovative tech solutions for hospitals and healthcare providers",
+      image: "/p6.png",
+      live: "https://indiem.tech/",
+    },
+    {
+      id: 7,
+      name: "syncityevents",
+      description: "Event management platform with seamless user experience",
+      image: "/p7.png",
+      live: "https://www.syncityevents.com/",
+    },
+    {
+      id: 8,
+      name: "Ancient Health",
+      description: "Health and wellness website promoting natural remedies",
+      image: "/p8.png",
+      live: "https://www.ancienthealth.in/",
+    },
+    {
+      id: 9,
+      name: "Inkcho",
+      description: "Creative design agency specializing in branding and visual identity",
+      image: "/p9.png",
+      live: "https://www.inkcho.vercel.app/",
     }
   ];
 

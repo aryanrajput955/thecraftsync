@@ -13,8 +13,9 @@ const logos = [
         { src: '/logo15.png', url: 'https://meucart.com/' },
          { src: '/logo17.png', url: 'https://fpoconnect.in/' },
            { src: '/ink.png', url: '/' },
-        
-        
+            { src: '/indiem.png', url: 'https://indiem.tech/' },
+            { src: '/ancient.png', url: 'https://www.ancienthealth.in/' },
+         { src: '/syncity.png', url: 'https://www.syncityevents.com/' },
         
 ];
 
