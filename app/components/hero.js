@@ -171,7 +171,7 @@ const HeroSection = () => {
           </div>
 
           {/* Center content */}
-          <div className="lg:col-span-6 text-center px-1 lg:px-4">
+          <div className="lg:col-span-6 text-center px-auto lg:px-4">
             <motion.h1
               variants={textVariants}
               initial="initial"
