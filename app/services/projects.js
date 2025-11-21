@@ -52,28 +52,28 @@ const ProjectSection = () => {
       id: 6,
       name: "Indiem",
       description: "Innovative tech solutions for hospitals and healthcare providers",
-      image: "/p6.png",
+      image: "/p13-transformed.png",
       live: "https://indiem.tech/",
     },
     {
       id: 7,
       name: "syncityevents",
       description: "Event management platform with seamless user experience",
-      image: "/p7.png",
+      image: "/p11-transformed.png",
       live: "https://www.syncityevents.com/",
     },
     {
       id: 8,
       name: "Ancient Health",
       description: "Health and wellness website promoting natural remedies",
-      image: "/p8.png",
+      image: "/p10-transformed.png",
       live: "https://www.ancienthealth.in/",
     },
     {
       id: 9,
       name: "Inkcho",
       description: "Creative design agency specializing in branding and visual identity",
-      image: "/p9.png",
+      image: "/p12-transformed.png",
       live: "https://www.inkcho.vercel.app/",
     }
   ];

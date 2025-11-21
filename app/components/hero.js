@@ -121,11 +121,8 @@ const HeroSection = () => {
   if (!mounted) return null;
 
   return (
-    <section className="relative h-screen  bg-[#111] overflow-hidden py-20 px-4">
-      {/* Background gradient effects */}
-      {/* <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-blue-900/20"></div>
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div> */}
+   <section className="relative h-screen bg-[#111] overflow-hidden pt-0 pb px-4 lg:pt-20 lg:py-20">
+   
 
       <div className="relative max-w-7xl h-screen mx-auto">
         <div className="grid grid-cols-1 h-screen lg:grid-cols-12 gap-8 items-center ">
@@ -166,13 +163,13 @@ const HeroSection = () => {
     variants={textVariants}
     initial="initial"
     animate="animate"
-    className="font-display mt-6 word-wide text-5xl sm:text-8xl md:text-8xl lg:text-7xl xl:text-9xl 2xl:text-[8rem]  mb-6 text-center leading-none"
+    className="font-display mt-6 word-wide text-6xl sm:text-8xl md:text-8xl lg:text-7xl xl:text-9xl 2xl:text-[8rem]  mb-6 text-center leading-none"
   >
     <span className="text-white block">EXCEPTIONAL</span>
     <span className="text-[#7D4199]  flex items-center justify-center gap-2 lg:gap-4 z-0">
       DIGITAL
         <svg
-        className="  -rotate-30 absolute left-[64%] w-6 h-6 sm:w-8 sm:h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 text- z-10 animate-pulse"
+        className="  -rotate-30 absolute hidden lg:block left-[64%] w-6 h-6 sm:w-8 sm:h-8 lg:w-12 lg:h-12 xl:w-16 xl:h-16 text- z-10 animate-pulse"
          viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M8 17L3 12L8 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
     <path d="M16 7L21 12L16 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

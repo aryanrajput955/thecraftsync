@@ -11,7 +11,7 @@ const logos = [
     { src: '/beard.png', url: 'https://beardsnshears.in/' },
       { src: '/logo16.png', url: 'https://fpcl.in/' },
         { src: '/logo15.png', url: 'https://meucart.com/' },
-         { src: '/logo17.png', url: 'https://fpoconnect.in/' },
+         { src: '/logo17.png', url: 'https://fpoconnect.org/' },
            { src: '/ink.png', url: '/' },
             { src: '/indiem.png', url: 'https://indiem.tech/' },
             { src: '/ancient.png', url: 'https://www.ancienthealth.in/' },
