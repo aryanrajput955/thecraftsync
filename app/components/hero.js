@@ -163,7 +163,7 @@ const HeroSection = () => {
     variants={textVariants}
     initial="initial"
     animate="animate"
-    className="font-display mt-6 word-wide text-6xl sm:text-8xl md:text-8xl lg:text-7xl xl:text-9xl 2xl:text-[8rem]  mb-6 text-center leading-none"
+    className="font-display mt-6 word-wide text-7xl sm:text-8xl md:text-8xl lg:text-7xl xl:text-9xl 2xl:text-[8rem]  mb-6 text-center leading-none"
   >
     <span className="text-white block">EXCEPTIONAL</span>
     <span className="text-[#7D4199]  flex items-center justify-center gap-2 lg:gap-4 z-0">
