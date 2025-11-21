@@ -10,7 +10,7 @@ const logos = [
   { src: '/logo5.png', url: 'https://example.com/logo5' },
     { src: '/beard.png', url: 'https://beardsnshears.in/' },
       { src: '/logo16.png', url: 'https://fpcl.in/' },
-        { src: '/logo15.png', url: 'https://meucart.com/' },
+        { src: '/logo15.png', url: 'https://meukart.com/' },
          { src: '/logo17.png', url: 'https://fpoconnect.org/' },
            { src: '/ink.png', url: '/' },
             { src: '/indiem.png', url: 'https://indiem.tech/' },
