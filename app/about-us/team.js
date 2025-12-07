@@ -97,6 +97,25 @@ We’re more than just experts—we’re collaborators, problem-solvers, and cre
           {/* Team Member 2 */}
           <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
             <Image
+              src="/avish.jpg"
+              alt="Team Member 2"
+              width={400}
+              height={400}
+              className="w-full h-64 object-cover grayscale group-hover:grayscale-0 transition-all duration-300"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+            <div className="p-6">
+              <h3 className="text-2xl font-semibold text-[#E0E0E0] font-heading mb-2">Avish</h3>
+              <p className="text-lg text-[#FE7743]  mb-4">Director</p>
+              <p className="text-sm text-gray-400 leading-relaxed">
+               Avish drives our strategic vision and operational excellence, ensuring we deliver top-tier digital marketing solutions that exceed client expectations.
+              </p>
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-[#FE7743]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          </div>
+  {/* Team Member 2 */}
+          <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+            <Image
               src="/manav.jpg"
               alt="Team Member 2"
               width={400}
@@ -113,7 +132,6 @@ We’re more than just experts—we’re collaborators, problem-solvers, and cre
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#FE7743]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </div>
-
           {/* Team Member 3 */}
           <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
             <Image
