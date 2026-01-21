@@ -178,7 +178,7 @@ const HeroSection = () => {
               animate="animate"
               className="font-display mt-6 word-wide text-6xl sm:text-8xl md:text-8xl lg:text-7xl xl:text-9xl 2xl:text-[8rem]  mb-6 text-center leading-none"
             >
-              <span className="text-white block">EXCEPTIONAL</span>
+              <span className="text-white font-sans font-extrabold block">360°</span>
               <span className="text-[#7D4199]  flex items-center justify-center gap-2 lg:gap-4 z-0">
                 DIGITAL
                 <svg
@@ -189,7 +189,7 @@ const HeroSection = () => {
                   <path d="M14 3L10 21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </span>
-              <span className="text-white block">EXPERIENCES</span>
+              <span className="text-white block">SOLUTIONS</span>
             </motion.h1>
 
             <motion.p
@@ -261,7 +261,277 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Mobile floating images */}
+        {/* Mobile minimalist graphics - Top decorative elements */}
+        <div className="lg:hidden absolute top-20 left-0 right-0 pointer-events-none">
+          {/* Floating gradient orbs */}
+          <motion.div
+            className="absolute top-10 left-8 w-32 h-32 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 blur-2xl"
+            animate={{
+              y: [0, -20, 0],
+              scale: [1, 1.2, 1],
+              opacity: [0.3, 0.5, 0.3]
+            }}
+            transition={{
+              duration: 6,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          />
+          <motion.div
+            className="absolute top-32 right-8 w-24 h-24 rounded-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 blur-2xl"
+            animate={{
+              y: [0, 15, 0],
+              scale: [1, 1.1, 1],
+              opacity: [0.2, 0.4, 0.2]
+            }}
+            transition={{
+              duration: 5,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 1
+            }}
+          />
+
+          {/* Geometric shapes */}
+          <motion.div
+            className="absolute top-16 right-12"
+            animate={{
+              rotate: [0, 360],
+              y: [0, -10, 0]
+            }}
+            transition={{
+              rotate: { duration: 20, repeat: Infinity, ease: "linear" },
+              y: { duration: 4, repeat: Infinity, ease: "easeInOut" }
+            }}
+          >
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="18" stroke="#7D4199" strokeWidth="1.5" opacity="0.4" strokeDasharray="4 4"/>
+            </svg>
+          </motion.div>
+
+          <motion.div
+            className="absolute top-28 left-16"
+            animate={{
+              rotate: [0, -180, 0],
+              y: [0, 10, 0]
+            }}
+            transition={{
+              rotate: { duration: 15, repeat: Infinity, ease: "linear" },
+              y: { duration: 5, repeat: Infinity, ease: "easeInOut" }
+            }}
+          >
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
+              <path d="M15 2 L28 26 L2 26 Z" stroke="#7D4199" strokeWidth="1.5" opacity="0.3" fill="none"/>
+            </svg>
+          </motion.div>
+
+          {/* Abstract digital icons */}
+          <motion.div
+            className="absolute top-24 left-6"
+            animate={{
+              y: [0, -8, 0],
+              opacity: [0.3, 0.6, 0.3]
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M8 6L3 12L8 18" stroke="#7D4199" strokeWidth="2" strokeLinecap="round"/>
+              <path d="M16 6L21 12L16 18" stroke="#7D4199" strokeWidth="2" strokeLinecap="round"/>
+            </svg>
+          </motion.div>
+
+          <motion.div
+            className="absolute top-20 right-20"
+            animate={{
+              scale: [1, 1.2, 1],
+              opacity: [0.4, 0.7, 0.4]
+            }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.5
+            }}
+          >
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <rect x="2" y="2" width="16" height="16" stroke="#7D4199" strokeWidth="1.5" opacity="0.4" rx="2"/>
+            </svg>
+          </motion.div>
+        </div>
+
+        {/* Mobile minimalist graphics - Bottom decorative elements */}
+        <div className="lg:hidden absolute bottom-32 left-0 right-0 pointer-events-none">
+          {/* Floating gradient orbs */}
+          <motion.div
+            className="absolute bottom-20 right-10 w-28 h-28 rounded-full bg-gradient-to-br from-purple-500/20 to-blue-500/20 blur-2xl"
+            animate={{
+              y: [0, 15, 0],
+              scale: [1, 1.15, 1],
+              opacity: [0.3, 0.5, 0.3]
+            }}
+            transition={{
+              duration: 7,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 2
+            }}
+          />
+          <motion.div
+            className="absolute bottom-10 left-6 w-36 h-36 rounded-full bg-gradient-to-br from-pink-500/15 to-purple-500/15 blur-2xl"
+            animate={{
+              y: [0, -18, 0],
+              scale: [1, 1.1, 1],
+              opacity: [0.2, 0.4, 0.2]
+            }}
+            transition={{
+              duration: 6,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 1.5
+            }}
+          />
+
+          {/* Geometric shapes */}
+          <motion.div
+            className="absolute bottom-24 left-12"
+            animate={{
+              rotate: [0, -360],
+              y: [0, 12, 0]
+            }}
+            transition={{
+              rotate: { duration: 18, repeat: Infinity, ease: "linear" },
+              y: { duration: 4.5, repeat: Infinity, ease: "easeInOut" }
+            }}
+          >
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none">
+              <circle cx="17.5" cy="17.5" r="15" stroke="#7D4199" strokeWidth="1.5" opacity="0.35"/>
+              <circle cx="17.5" cy="17.5" r="8" stroke="#7D4199" strokeWidth="1" opacity="0.5"/>
+            </svg>
+          </motion.div>
+
+          <motion.div
+            className="absolute bottom-16 right-16"
+            animate={{
+              rotate: [0, 180, 0],
+              y: [0, -12, 0]
+            }}
+            transition={{
+              rotate: { duration: 12, repeat: Infinity, ease: "linear" },
+              y: { duration: 5, repeat: Infinity, ease: "easeInOut" }
+            }}
+          >
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <rect x="4" y="4" width="20" height="20" stroke="#7D4199" strokeWidth="1.5" opacity="0.4" rx="3" transform="rotate(45 14 14)"/>
+            </svg>
+          </motion.div>
+
+          {/* Abstract digital icons */}
+          <motion.div
+            className="absolute bottom-28 right-8"
+            animate={{
+              y: [0, -10, 0],
+              opacity: [0.3, 0.6, 0.3]
+            }}
+            transition={{
+              duration: 4.5,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.8
+            }}
+          >
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+              <circle cx="13" cy="13" r="3" fill="#7D4199" opacity="0.5"/>
+              <circle cx="13" cy="13" r="8" stroke="#7D4199" strokeWidth="1.5" opacity="0.3" strokeDasharray="2 3"/>
+              <circle cx="13" cy="13" r="11" stroke="#7D4199" strokeWidth="1" opacity="0.2" strokeDasharray="3 4"/>
+            </svg>
+          </motion.div>
+
+          <motion.div
+            className="absolute bottom-12 left-20"
+            animate={{
+              scale: [1, 1.3, 1],
+              rotate: [0, 90, 0],
+              opacity: [0.3, 0.6, 0.3]
+            }}
+            transition={{
+              duration: 5,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 1.2
+            }}
+          >
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+              <path d="M11 2 L20 11 L11 20 L2 11 Z" stroke="#7D4199" strokeWidth="1.5" opacity="0.4" fill="none"/>
+            </svg>
+          </motion.div>
+
+          {/* Decorative lines and dots */}
+          <motion.div
+            className="absolute bottom-20 left-8"
+            animate={{
+              opacity: [0.2, 0.5, 0.2],
+              scaleX: [1, 1.1, 1]
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+          >
+            <svg width="60" height="2" viewBox="0 0 60 2" fill="none">
+              <line x1="0" y1="1" x2="60" y2="1" stroke="#7D4199" strokeWidth="1.5" opacity="0.3" strokeDasharray="4 4"/>
+            </svg>
+          </motion.div>
+
+          <motion.div
+            className="absolute bottom-32 right-12"
+            animate={{
+              opacity: [0.3, 0.6, 0.3]
+            }}
+            transition={{
+              duration: 3,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 0.5
+            }}
+          >
+            <svg width="4" height="40" viewBox="0 0 4 40" fill="none">
+              <line x1="2" y1="0" x2="2" y2="40" stroke="#7D4199" strokeWidth="1.5" opacity="0.3" strokeDasharray="3 3"/>
+            </svg>
+          </motion.div>
+
+          {/* Small accent dots */}
+          {[...Array(5)].map((_, i) => (
+            <motion.div
+              key={`dot-${i}`}
+              className="absolute"
+              style={{
+                left: `${20 + i * 15}%`,
+                bottom: `${15 + (i % 2) * 8}px`
+              }}
+              animate={{
+                opacity: [0.2, 0.6, 0.2],
+                scale: [1, 1.5, 1]
+              }}
+              transition={{
+                duration: 3 + i * 0.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+                delay: i * 0.3
+              }}
+            >
+              <svg width="6" height="6" viewBox="0 0 6 6" fill="none">
+                <circle cx="3" cy="3" r="2" fill="#7D4199" opacity="0.4"/>
+              </svg>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Mobile floating images - kept at bottom */}
         <div className="lg:hidden mt-12">
           <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
             {[...leftImages.slice(0, 2), ...rightImages.slice(0, 2)].map((image, index) => (
