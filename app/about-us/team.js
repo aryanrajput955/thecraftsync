@@ -154,7 +154,7 @@ We’re more than just experts—we’re collaborators, problem-solvers, and cre
           </div>
 
           {/* Team Member 4 */}
-          <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+          {/* <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
             <Image
               src="/leaddesigner.jpg"
               alt="Team Member 4"
@@ -171,9 +171,9 @@ We’re more than just experts—we’re collaborators, problem-solvers, and cre
               </p>
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#FE7743]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          </div>
+          </div> */}
         {/* team member5 */}
-                <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                {/* <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
             <Image
               src="/priyauiux.jpg"
               alt="Team Member 5"
@@ -190,7 +190,7 @@ We’re more than just experts—we’re collaborators, problem-solvers, and cre
               </p>
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#FE7743]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          </div>
+          </div> */}
                   {/* team member5 */}
             <div className="relative group bg-[#1A1A1A] rounded-2xl overflow-hidden shadow-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
             <Image
